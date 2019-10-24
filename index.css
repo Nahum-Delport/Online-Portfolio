@@ -1,0 +1,327 @@
+* {
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Carrois Gothic SC', sans-serif;
+    margin: 0px;
+
+}
+ul {
+    list-style-type: none;
+}
+
+a {
+    color: grey;
+    padding-right: 5%;
+}
+
+li .navCons {
+    display: block;
+    color: grey;
+    text-decoration: none;
+    transition: color 0.8s;
+}
+
+.columnA {
+    float: left;
+    width: 23%;
+    height: 610px;
+    background-color: rgb(17, 17, 17);
+    color: grey;
+    padding-top: 3.2%;
+    padding-right: 2.2%;
+    padding-left: -2.2%;
+    position: fixed;
+}
+
+.columnB {
+    float: right;
+    width: 77%;
+    height: 300px;
+}
+
+.container {
+    font-family: 'Megrim', cursive;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.center {
+    text-align: center;
+}
+
+.disWrap {
+    display: inline;
+}
+
+.line {
+    border: 1px solid rgb(65, 65, 65);
+}
+
+.navList {
+    padding-top: 1.8%;
+    padding-bottom: 1.8px;
+}
+
+.headName {
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+}
+.iconList {
+    padding-top: 40%;
+    padding-left: 27%;
+}
+.wallpaper {
+   height: 609px;
+   width: 100%;
+}
+.typeWriter {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    font-size: 28px;
+    width: 400px;
+}
+.typewrite {
+    cursor: default;
+}
+#facebook,
+#instagram,
+#linkedin,
+#email,
+#github {
+    transition: color 0.5s;
+}
+#facebook:hover {
+    color: rgb(24, 24, 109);
+}
+#instagram:hover {
+    color: brown;
+}
+#linkedin:hover {
+    color: rgb(29, 151, 94);
+}
+#github:hover {
+    color: white;
+}
+#email:hover {
+    color: rgb(245, 216, 51);
+}
+
+.navList {
+    transition: color 1s;
+}
+.navList:hover {
+    color: white;
+}
+
+#linkX {
+    transition: color 0.6s;
+}
+#linkX:hover {
+    color: white;
+}
+
+.about {
+    padding-top: 5%;
+    padding-left: 3%;
+    padding-right: 2%;
+    color: gray;
+    height: 610px;
+}
+.black {
+    color: black;
+}
+
+.twoCols:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.imageLeft {
+    float: left;
+    width: 40%;
+    height: 100%;
+}
+
+.aboutMe {
+    float: right;
+    width: 60%;
+    font-family: 'Nunito Sans', sans-serif;
+}
+#second {
+    background-color: rgb(231, 231, 231);
+}
+#myPhoto {
+    width: 330px;
+    height: 350px;
+}
+#skillsP {
+    float: left;
+    width: 45%;
+    height: 100%;
+    padding-right: 3.5%;
+}
+
+#progBar {
+    height: 1%;
+    color: black;
+    float: right;
+    width: 55%;
+    display: ruby-base;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-family: 'Nunito Sans', sans-serif;    
+}
+#myProgress {
+    width: 100%;
+    background-color: #ddd;
+}
+#myBar {
+    
+    height:10px;
+    background-color: black;
+}
+.noSpace {
+    margin-bottom: -0.4%;
+}
+.allProg {
+    margin-left: 82%;
+    margin-bottom: -0.5%;
+}
+.percent {
+    position: absolute;
+    right: 3%;
+    font-size: 14px;
+ 
+}
+
+.fltRight {
+    float: right;
+    font-size: 14px;    
+}
+
+#wide {
+    width: 467px;
+}
+
+/* Project Section */
+.projectSec {
+    display: block;
+}
+.displayDiv {
+    position: relative;
+    width: 50%;
+}
+.overLay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 150%;
+    opacity: 0;
+    transition: .5s ease;
+    
+}
+.displayDiv:hover .overLay {
+    opacity: 0.9;
+}
+.text {
+    color: white;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.screenShot {
+    width: 150%;
+    height: 100%;
+}
+/* End of ProjSec */
+
+#fourth {
+    background-color: rgb(231, 231, 231);
+    margin-top: 14%;
+    padding-top: 5%;
+    padding-left: 3%;
+    padding-right: 2%;
+    color: gray;
+    height: 610px;
+}
+.smlPad {
+    margin-top: 4%;
+    margin-bottom: 4%;
+}
+#fifth {
+    padding-left: 3%;
+    padding-right: 3%;
+    color: grey;
+    height: 150%;
+    background-color: rgb(63, 63, 63);
+}
+#board {
+    transform: rotate(90deg);
+    width: 350px;
+    height: 100%;
+    border-radius: 25px;
+    margin-top: 4.1%;
+}
+#centerImg {
+    text-align: center;
+}
+#iconArrow {
+    position: absolute;
+    top: 85%;
+    left: 59%;
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    animation: pop linear 1.2s infinite;
+    transition: color 1s;
+}
+#iconArrow:hover {
+    color: grey;
+}
+@keyframes pop {
+    0% { transform: scale(1.5,1.5) }
+    50% { transform: scale(2,2) }
+    100% {transform: scale(1.5,1.5)}
+}
+.stage {
+    display: flex;
+    height: 330px;
+    width: 100%;
+}
+.box {
+    align-self: flex-end;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    background-color: blueviolet;
+    height: 200px;
+    margin: 0 auto 0 auto;
+    transform-origin: bottom;
+    width: 200px;
+}
+
+.bounce-3 {
+    animation-name: bounce-3;
+    animation-timing-function: ease;
+}
+@keyframes bounce-3 {
+    0% { transform: translateY(0); }
+    30% { transform: translateY(-100); }
+    50% { transform: translateY(0); }
+    100% { transform: translateY(0); }
+}
